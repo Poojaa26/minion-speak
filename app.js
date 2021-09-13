@@ -7,7 +7,7 @@ function errorHandler(error) {
     alert("Server Down! Try Again Later");
 }
 
-var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
+var serverURL = "https://api.funtranslations.com/translate/minion.json";
 
 function constructURL(text) {
     return serverURL + "?text=" + text;
