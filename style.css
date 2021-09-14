@@ -1,5 +1,21 @@
+:root {
+    --primary-color: #FEDD00;
+    --secondary-color: white;
+}
+body {
+    /*background-image: url(minion-bg.jpg);*/
+    margin: 0px;
+    }
+#header {
+    background-color: var(--primary-color);
+    font-family: fantasy;
+    font-size:larger;
+    text-align:center;
+    padding: 3px;
+    
+}
 #output {
-    border: 1px solid black;
+    border: 1px solid rgb(168, 103, 103);
     width: 80%;
     height: 200px;
 }
