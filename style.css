@@ -25,7 +25,8 @@ h2 {
     border-radius: 5px;
     padding:5px;
     display: block;
-    margin: auto;  
+    margin: auto;
+    font-family: comic sans MS;  
 }
 #output {
     border: 1px solid rgb(168, 103, 103);
@@ -34,10 +35,18 @@ h2 {
     border-radius: 5px;
     padding:5px;
     margin:auto;
+    font-family: comic sans MS;
 }
 #btnTranslate {
     background-color: var(--primary-color);
     border-radius: 10px;
     display:block;
     margin: auto;
+}
+#footer {
+    background-color: var(--primary-color);
+    font-family: comic sans MS;
+    text-align:center;
+    height: 100px;
+    padding: 20px;    
 }
