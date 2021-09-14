@@ -1,9 +1,8 @@
 :root {
     --primary-color: #FEDD00;
-    --secondary-color: white;
 }
 body {
-    /*background-image: url(minion-bg.jpg);*/
+    background-image: url(minion-bg.jpg);
     margin: 0px;
     }
 #header {
@@ -34,6 +33,7 @@ h2 {
     height: 100px;
     border-radius: 5px;
     padding:5px;
+    background-color: white;
     margin:auto;
     font-family: comic sans MS;
 }
